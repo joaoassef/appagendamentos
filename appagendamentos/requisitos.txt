@@ -1,0 +1,68 @@
+Requisitos Funcionais AGENDA DE Serviços
+
+RF01 – Primeira utilização 
+ok - Mostrar mensagem de boas-vindas com as principais funções.
+Depois seguir para autenticação.
+Não mostrar novamente após o primeiro uso.
+
+
+RF02 – Entrada no sistema
+ok - Cadastro com dados da empresa (nome, e-mail, senha, telefone, endereço, logotipo opcional e ramo de atividade).
+Login com e-mail/senha ou biometria.
+Enviar e-mail de confirmação no cadastro.
+Possibilidade de editar dados depois.
+
+
+RF03 – Ramo de atividade
+Define serviços padrão para o tipo de empresa.
+Possibilidade de importar serviços de outros ramos.
+
+
+RF04 – Serviços
+Cadastrar nome e descrição.
+Marcar como favoritos.
+Criar, editar e excluir livremente.
+
+
+RF05 – Colaboradores
+Cadastro de nome e foto opcional.
+Indicar preferências de serviços para cada colaborador.
+Vincular colaboradores aos serviços.
+
+
+RF06 – Agendamentos
+Informações obrigatórias: cliente, telefone, data/hora e serviço.
+Profissional é opcional.
+Mostrar serviços e colaboradores favoritos primeiro.
+Bloquear agendamento duplicado para mesma data/hora.
+
+
+RF07 – Calendário
+Exibir agendamentos do dia (ou data escolhida) em ordem de horário.
+Destacar atrasos.
+
+
+RF08 – Atendimentos
+Criados a partir de um agendamento.
+Permitir alterar serviços e colaboradores.
+Ao finalizar, voltar à tela inicial.
+Possível editar atendimentos finalizados.
+
+
+RF09 – Tema do aplicativo
+Opções: automático (sistema), claro ou escuro.
+Padrão: tema do sistema.
+
+
+RF10 – Compartilhamento
+Copiar ou enviar resumo do atendimento por mensagens.
+Texto genérico personalizável.
+
+
+RF11 – Relatório de clientes
+Lista de clientes atendidos, com filtros por nome, mês, ano ou intervalo.
+
+
+RF12 – Recuperação de senha
+Solicitar redefinição via e-mail com envio de código.
+Armazenar senha de forma segura.
